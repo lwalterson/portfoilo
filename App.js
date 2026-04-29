@@ -27,6 +27,10 @@ export default function App() {
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),
+              headerRight: () => (
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("contactMe")}>
+                <Text style={styles.buttonText}>Home</Text>
+              </TouchableOpacity>)
           }}/>
           
           <Stack.Screen name="contactMe" component={ContactMe} options={{
