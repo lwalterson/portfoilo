@@ -15,10 +15,10 @@ export function ContactMe({navigation}) {
     <View style={styles.container}>
      <Text style={styles.text}>The best way to contact me is email.</Text>
      <Text style={styles.text}>laurenbwalterson@gmail.com</Text>
-    <Text style={styles.text} onPress={openLinkedIn}>  
+    <Text style={styles.link} onPress={openLinkedIn}>  
           LinkedIn
         </Text>
-        <Text style={styles.text} onPress={openGitHub}>  
+        <Text style={styles.link} onPress={openGitHub}>  
           GitHub
         </Text>
     </View>
@@ -38,4 +38,9 @@ const styles = StyleSheet.create({
     fontSize: '200%',
      textAlign: 'center',
   },
+  link:{
+    fontSize: '150%',
+     textAlign: 'center',
+    color: '#ffffff'
+  }
 });
