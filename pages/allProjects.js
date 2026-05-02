@@ -9,16 +9,16 @@ const Stack = createNativeStackNavigator();
 export function AllProjects({navigation}) {
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("musicApp")}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Music App")}>
           <Text style={styles.buttonText}>Music Player</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("calculators")}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Calculators")}>
           <Text style={styles.buttonText}>Calculators</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("resumeChecker")}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Resume Checker")}>
             <Text style={styles.buttonText}>Resume Checker</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("birdHouses")}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Birdhouses")}>
               <Text style={styles.buttonText}>Bird Houses</Text>
             </TouchableOpacity>
      
@@ -35,9 +35,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#3e78a4'
   },
   button: {
-    backgroundColor: '#0a2339',
+    backgroundColor: '#0a202e',
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 3,
     margin: 5,
   },
   buttonText: {

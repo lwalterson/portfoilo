@@ -14,15 +14,15 @@ export function Home({navigation}) {
         <Text style={styles.text} >Hello I am Lauren Walterson a senior Digital Media (Web and Interactive Media) student at UCF.</Text>
         <Text>Click below to learn more about me.</Text>
     </View>
-     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("allProjects")}>
+     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("All Projects")}>
     <Text style={styles.buttonText}>Projects</Text>
   </TouchableOpacity>
     
-<TouchableOpacity style={styles.button} onPress={() => navigation.navigate("aboutMe")}>
+<TouchableOpacity style={styles.button} onPress={() => navigation.navigate("About Me")}>
     <Text style={styles.buttonText}>About Me</Text>
   </TouchableOpacity>
 
-  <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("contactMe")}>
+  <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Contact Me")}>
     <Text style={styles.buttonText}>Contact Me</Text>
   </TouchableOpacity>
 
@@ -38,6 +38,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'white',
     height: 'auto',
+    marginLeft: '5%',
+    marginRight: '5%',
+    borderRadius: 3
     
   },
    background: {
@@ -48,9 +51,9 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     button: {
-    backgroundColor: '#0a2339',
+    backgroundColor: '#0a202e',
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 3,
     margin: 5,
   },
   buttonText: {
