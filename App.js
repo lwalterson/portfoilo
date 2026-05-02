@@ -23,7 +23,7 @@ export default function App() {
             headerLeft: null,
           }}/>
 
-      <Stack.Screen name="aboutMe" component={AboutMe} options={{
+      <Stack.Screen name="About Me" component={AboutMe} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
@@ -31,42 +31,42 @@ export default function App() {
               
           }}/>
           
-          <Stack.Screen name="contactMe" component={ContactMe} options={{
+          <Stack.Screen name="Contact Me" component={ContactMe} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),
           }}/>
 
-          <Stack.Screen name="allProjects" component={AllProjects} options={{
+          <Stack.Screen name="All Projects" component={AllProjects} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),            
           }}/>
 
-          <Stack.Screen name="musicApp" component={MusicApp} options={{
+          <Stack.Screen name="Music App" component={MusicApp} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),
           }}/>
 
-      <Stack.Screen name="resumeChecker" component={ResumeChecker} options={{
+      <Stack.Screen name="Resume Checker" component={ResumeChecker} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),
           }}/>
 
-      <Stack.Screen name="birdHouses" component={BirdHouses} options={{
+      <Stack.Screen name="Birdhouses" component={BirdHouses} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
               </TouchableOpacity>),
           }}/>
 
-          <Stack.Screen name="calculators" component={Calculators} options={{
+          <Stack.Screen name="Calculators" component={Calculators} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>
@@ -87,9 +87,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   button: {
-    backgroundColor: '#0a2339',
+    backgroundColor: '#0a202e',
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 3,
     margin: 5,
   },
   buttonText: {
