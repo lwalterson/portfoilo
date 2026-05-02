@@ -33,6 +33,7 @@ export function MusicApp({navigation}) {
     nativeControls={true}
   /></View>
      </View>
+     <View style={{backgroundColor: '#e7edeb', borderRadius: 3,}}>
      <Text style={styles.text}>It is coded using plain HTML CSS and Javascript.  All playlists, songs, and user accounts are stored on Supabase, which is called directly from the browser. Local storage is only used to save the state of the music player. The project is deployed from the github on Netlify. 
      </Text>
      <Text style={styles.text}>I used this project to practice my ability to properly prompt, understand, and correct AI generated code by using the languages that I am the most familiar with. I also used it to learn the basics of integrating databases. 
@@ -50,6 +51,7 @@ export function MusicApp({navigation}) {
              GitHub
            </Text>
            </View>
+           </View>
     </ScrollView>
   );
 }
@@ -57,7 +59,7 @@ export function MusicApp({navigation}) {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: '#3e78a4',
+    backgroundColor: '#84a3b5',
   },
   view:{
     flex: 1,
@@ -65,6 +67,7 @@ const styles = StyleSheet.create({
     width: '100%',
      justifyContent: 'space-evenly',
     alignItems: 'center',
+    padding: '5%'
   },
   container: {
     flexGrow: 1,
@@ -92,6 +95,6 @@ const styles = StyleSheet.create({
   link:{
     fontSize: '150%',
      textAlign: 'center',
-    color: '#ffffff'
+    color: '#326791'
   }
 });
