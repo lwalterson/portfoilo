@@ -11,6 +11,7 @@ import {MusicApp} from './pages/projects/musicApp.js'
 import {ResumeChecker} from './pages/projects/resumeChecker.js'
 import {BirdHouses} from './pages/projects/birdHouses.js'
 import {Calculators} from './pages/projects/calculators.js'
+import {AccessibilityRedesign} from './pages/projects/accessibilityRedesign.js'
 
 
 const Stack = createNativeStackNavigator();
@@ -67,6 +68,13 @@ export default function App() {
           }}/>
 
           <Stack.Screen name="Calculators" component={Calculators} options={{
+            headerLeft: () => (
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
+                <Text style={styles.buttonText}>Home</Text>
+              </TouchableOpacity>),
+          }}/>
+
+           <Stack.Screen name="Accessibility Redesign" component={AccessibilityRedesign} options={{
             headerLeft: () => (
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("home")}>
                 <Text style={styles.buttonText}>Home</Text>

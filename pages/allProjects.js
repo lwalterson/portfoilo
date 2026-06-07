@@ -18,6 +18,9 @@ export function AllProjects({navigation}) {
         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Resume Checker")}>
             <Text style={styles.buttonText}>Resume Checker</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Accessibility Redesign")}>
+              <Text style={styles.buttonText}>Accessibility Redesign</Text>
+            </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Birdhouses")}>
               <Text style={styles.buttonText}>Bird Houses</Text>
             </TouchableOpacity>
